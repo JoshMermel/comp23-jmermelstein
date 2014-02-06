@@ -22,4 +22,4 @@ f.close()
 
 for key,value in sorted(wordlist.items()):
     print key,value
-print 'there are ' + str(wordcount) + ' words in the file'
+print 'There are ' + str(wordcount) + ' words in this file.'
