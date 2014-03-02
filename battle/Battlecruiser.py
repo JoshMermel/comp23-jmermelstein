@@ -3,6 +3,14 @@ from Laser import Laser
 from pygame.locals import * # This module contains various constants used by Pygame
 from pygame.key import *
 
+# Constants
+FPS = 50
+SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
+BACKGROUND_COLOR = (0, 0, 0)
+LASER_SPEED = -5
+MAX_SPEED = 10
+
+
 class Battlecruiser(pygame.sprite.Sprite):
     '''A player controlled military spacecraft'''
 
@@ -46,6 +54,21 @@ class Battlecruiser(pygame.sprite.Sprite):
 
     def update(self):
         ''' Move the sprite '''
+        keys = pygame.key.get_pressed()
+        if keys[K_LEFT]:
+            my_cruiser.dx -= 2
+        if keys[K_RIGHT]:
+            my_cruiser.dx += 2
+        if keys[K_UP]:
+            my_cruiser.dy -= 2
+        if keys[K_DOWN]:
+            my_cruiser.dy += 2
+
+        if abs(my_cruiser.dx) > MAX_SPEED:
+            my_cruiser.dx = MAX_SPEED * abs(my_cruiser.dx)/my_cruiser.dx
+        if abs(my_cruiser.dy) > MAX_SPEED:
+            my_cruiser.dy = MAX_SPEED * abs(my_cruiser.dy)/my_cruiser.dy
+
         self.x = self.x + self.dx
         self.y = self.y + self.dy
         # Slow to a stop
@@ -53,6 +76,10 @@ class Battlecruiser(pygame.sprite.Sprite):
             self.dx -= abs(self.dx)/self.dx
         if self.dy != 0:
             self.dy -= abs(self.dy)/self.dy
+        self.rect.x %= SCREEN_WIDTH
+        self.x %= SCREEN_WIDTH
+        self.rect.y %= SCREEN_HEIGHT
+        self.y %= SCREEN_HEIGHT
         self.rect.move(self.rect.x, self.rect.y)
         self.lasers.update()
 
@@ -60,12 +87,6 @@ class Battlecruiser(pygame.sprite.Sprite):
         self.screen.blit(self.image, (self.x, self.y))
         for l in self.lasers:
             l.draw()
-
-# Constants
-FPS = 50
-SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
-BACKGROUND_COLOR = (0, 0, 0)
-LASER_SPEED = -5
 
 # Initialize all imported Pygame modules (a.k.a., get things started)
 pygame.init()
@@ -81,20 +102,11 @@ def input(events):
     for event in events:
         if event.type == QUIT:
             quit()
-        else:
-            if event.type == KEYDOWN:
-                if event.key == K_ESCAPE:
-                    quit()
-                if event.key == K_DOWN:
-                    my_cruiser.dy += 10
-                if event.key == K_UP:
-                    my_cruiser.dy -= 10
-                if event.key == K_RIGHT:
-                    my_cruiser.dx += 10
-                if event.key == K_LEFT:
-                    my_cruiser.dx -= 10
-                if event.key == K_SPACE:
-                    my_cruiser.create_laser()
+        elif event.type == KEYDOWN:
+            if event.key == K_ESCAPE:
+                quit()
+            if event.key == K_SPACE:
+                my_cruiser.create_laser()
 
 
 # Set the display's dimensions
