@@ -3,7 +3,7 @@ from pygame.locals import *
 from random import randint
 
 class Laser(pygame.sprite.Sprite):
-    ''' A simple sprite that bounces off the walls '''
+    ''' A simple sprite that moves vertically'''
     
     def load_image(self, image_name):
         ''' The proper way to load an image '''
@@ -48,6 +48,7 @@ class Laser(pygame.sprite.Sprite):
             self.kill() # see http://pygame.org/docs/ref/sprite.html#Sprite.kill
 
     def draw(self):
+        '''draw the sprite'''
         self.screen.blit(self.image, (self.x, self.y))
                     
 if __name__ == "__main__":
@@ -64,7 +65,7 @@ if __name__ == "__main__":
     
     # Initialize Pygame, the clock (for FPS), and a simple counter
     pygame.init()
-    pygame.display.set_caption('Pygame Sprite Group Demo')
+    pygame.display.set_caption('Laser')
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
     clock = pygame.time.Clock()
 
@@ -89,13 +90,9 @@ if __name__ == "__main__":
                     pygame.quit()
                     sys.exit()                  
         
-        # Redraw the background
+        # update and redraw
         screen.fill(BACKGROUND_COLOR)
-        
-        # Update and redraw all sprites
         lasers.update()
         for l in lasers:
             l.draw()
-        
-        # Draw the sprites
         pygame.display.update()

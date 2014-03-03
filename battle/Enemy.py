@@ -20,8 +20,6 @@ class Enemy(pygame.sprite.Sprite):
             raise SystemExit, message
         return image.convert_alpha()
 
-
-
     def __init__(self, screen, init_x, init_y, init_y_speed, init_x_speed):
         ''' Create the LaserBolt at (x, y) moving up at a given speed '''
         pygame.sprite.Sprite.__init__(self) #call Sprite intializer
@@ -101,12 +99,11 @@ if __name__ == "__main__":
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
     clock = pygame.time.Clock()
 
-    # Create the sprite group
+    # initialize spritegroup for enemies and put stuff in it
     enemies = pygame.sprite.Group()
-
-    # Add a new laser at random x-coordinate with random speed
     for i in range(num_enemies):
         enemies.add(Enemy(screen, randint(1, SCREEN_WIDTH), 0, randint(1, 5), randint(1,5)))
+
     # Game loop
     while True:
         time_passed = clock.tick(FPS)
@@ -120,17 +117,10 @@ if __name__ == "__main__":
                 if event.key == K_ESCAPE:
                     pygame.quit()
                     sys.exit()                  
-                if event.key == K_SPACE:
-                    for l in enemies:
-                        l.die()
         
-        # Redraw the background
+        # update and redraw sprites and background
         screen.fill(BACKGROUND_COLOR)
-        
-        # Update and redraw all sprites
         enemies.update()
         for l in enemies:
             l.draw()
-        
-        # Draw the sprites
         pygame.display.update()

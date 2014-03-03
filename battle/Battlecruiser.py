@@ -59,10 +59,10 @@ class Battlecruiser(pygame.sprite.Sprite):
         # Initialize group of lasers
         self.lasers = pygame.sprite.Group()
 
-        # what does this even do?
         self.active = True
 
     def create_laser(self):
+        '''fires a laser'''
         self.fire_sound.play()
         self.lasers.add(Laser(self.screen, (self.x + self.image_w/2), self.y, LASER_SPEED))
 
@@ -102,12 +102,14 @@ class Battlecruiser(pygame.sprite.Sprite):
         self.lasers.update()
 
     def draw(self):
+        '''draws the sprite'''
         if self.active:
             self.screen.blit(self.image, (self.x, self.y))
             for l in self.lasers:
                 l.draw()
 
     def die(self):
+        '''destroys the battlecruiser'''
         if self.active:
             self.active = False
             self.death_sound.play()
@@ -134,10 +136,9 @@ def input(events):
 
 
 if __name__ == "__main__":
-    # Initialize all imported Pygame modules (a.k.a., get things started)
+    # initialize pygame
     pygame.init()
     clock = pygame.time.Clock()
-
 
     # Set the display's dimensions
     screenDimensions = (SCREEN_WIDTH, SCREEN_HEIGHT)
@@ -150,15 +151,17 @@ if __name__ == "__main__":
     background.fill(BACKGROUND_COLOR)
     screen.blit(background, (0,0))
 
+    # initialize the battlecruiser
     my_cruiser = Battlecruiser(screen, 100,100)
-    my_cruiser.draw()
+
+    # initialize score
     score = 0
     COUNTER_LOCATION = (10, 10)
 
     # The game loop
     while True:
         time_passed = clock.tick(FPS)
-        screen.fill((0,0,0))
+        screen.fill(BACKGROUND_COLOR)
         input(pygame.event.get())
         my_cruiser.update()
         my_cruiser.draw()
