@@ -59,30 +59,43 @@ time_to_respawn = 0
 
 # The game loop
 while True:
+    # handle events
     input(pygame.event.get())
+    time_passed = clock.tick(FPS)
+
+    # manage the background
     screen.blit(background, (0,background_pos))
     background_pos -= 1
     if background_pos <= SCREEN_HEIGHT - background.get_height():
         background_pos = 0
+
+    # draw the score
     text = font.render("Score:" + str(score), 1, (0,255,0))
-    time_passed = clock.tick(FPS)
+    screen.blit(text, COUNTER_LOCATION)
+
+    # manage the cruiser
     my_cruiser.update()
     my_cruiser.draw()
-    screen.blit(text, COUNTER_LOCATION)
+
+    # manage the enemies
     enemies.update()
     time_to_respawn += 1
     if time_to_respawn >= 100 and not gameover:
-        enemies.add(Enemy(screen, randint(1, SCREEN_WIDTH), 0, randint(1, 5), randint(1,5)))
-        enemies.add(Enemy(screen, randint(1, SCREEN_WIDTH), 0, randint(1, 5), randint(1,5)))
-        enemies.add(Enemy(screen, randint(1, SCREEN_WIDTH), 0, randint(1, 5), randint(1,5)))
+        for j in range (randint(0, 10)):
+            enemies.add(Enemy(screen, randint(1, SCREEN_WIDTH), 0, randint(1, 5), randint(1,5)))
         time_to_respawn = 0
     for e in enemies:
         e.draw()
+        # detect laser-enemy collisions
         if pygame.sprite.spritecollide(e, my_cruiser.lasers, True):
             score += e.die()
+    
+    #detect cruiser-enemy collisions
     if pygame.sprite.spritecollide(my_cruiser, enemies, False):
         my_cruiser.die()
         gameover = True
+
+    # draw gameover text if necessary
     if gameover:
         screen.blit(gameover_text, (SCREEN_WIDTH/2, SCREEN_HEIGHT/2))
     pygame.display.flip()
