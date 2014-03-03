@@ -47,7 +47,7 @@ for i in range(num_enemies):
 back1_x = 0
 gameover_text = font.render('GAMEOVER',0, (255,255,255))
 
-# background
+# manage background
 try:
     background = pygame.image.load('assets/assets/ram_aras.png').convert()
 except pygame.error, message:
