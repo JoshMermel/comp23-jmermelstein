@@ -1,6 +1,6 @@
 import pygame, sys, os
 from Laser import Laser
-from pygame.locals import * # This module contains various constants used by Pygame
+from pygame.locals import * 
 from pygame.key import *
 
 # Constants
@@ -8,8 +8,7 @@ FPS = 50
 SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
 BACKGROUND_COLOR = (0, 0, 0)
 LASER_SPEED = -5
-MAX_SPEED = 10
-
+MAX_SPEED = 20 #in x and y directions separatly, not normalized
 
 class Battlecruiser(pygame.sprite.Sprite):
     '''A player controlled military spacecraft'''
@@ -23,6 +22,15 @@ class Battlecruiser(pygame.sprite.Sprite):
             raise SystemExit, message
         return image.convert_alpha()
 
+    def load_sound(self, sound_name):
+        ''' The proper way to load a sound '''
+        try:
+            sound = pygame.mixer.Sound(sound_name)
+        except pygame.error, message:
+            print "Cannot load sound: " + sound_name
+            raise SystemExit, message
+        return sound
+
     def __init__(self, screen, init_x, init_y):
         ''' Create the LaserBolt at (x, y) moving up at a given speed '''
         pygame.sprite.Sprite.__init__(self) #call Sprite intializer
@@ -30,6 +38,9 @@ class Battlecruiser(pygame.sprite.Sprite):
         # Load the image
         self.image = self.load_image('assets/assets/battlecruiser.gif')
 
+        # Load sounds
+        self.death_sound = self.load_sound('assets/assets/death_explode.wav')
+        self.fire_sound = self.load_sound('assets/assets/laser.wav')
         self.screen = screen
 
         # Create a moving collision box
@@ -37,7 +48,9 @@ class Battlecruiser(pygame.sprite.Sprite):
         self.image_w = self.rect[2]
         self.image_h = self.rect[3]
         self.x = init_x
+        self.rect.x = init_x
         self.y = init_y
+        self.rect.y = init_y
 
         # Initialize movement
         self.dx = 0
@@ -47,50 +60,61 @@ class Battlecruiser(pygame.sprite.Sprite):
         self.lasers = pygame.sprite.Group()
 
         # what does this even do?
-        active = True
+        self.active = True
 
     def create_laser(self):
-		self.lasers.add(Laser(screen, (self.x + self.image_w/2), self.y, LASER_SPEED))
+        self.fire_sound.play()
+        self.lasers.add(Laser(self.screen, (self.x + self.image_w/2), self.y, LASER_SPEED))
 
     def update(self):
         ''' Move the sprite '''
-        keys = pygame.key.get_pressed()
-        if keys[K_LEFT]:
-            my_cruiser.dx -= 2
-        if keys[K_RIGHT]:
-            my_cruiser.dx += 2
-        if keys[K_UP]:
-            my_cruiser.dy -= 2
-        if keys[K_DOWN]:
-            my_cruiser.dy += 2
+        if self.active:
+            keys = pygame.key.get_pressed()
+            if keys[K_LEFT]:
+                self.dx -= 2
+            if keys[K_RIGHT]:
+                self.dx += 2
+            if keys[K_UP]:
+                self.dy -= 2
+            if keys[K_DOWN]:
+                self.dy += 2
+            if keys[K_s]:
+                self.create_laser()
 
-        if abs(my_cruiser.dx) > MAX_SPEED:
-            my_cruiser.dx = MAX_SPEED * abs(my_cruiser.dx)/my_cruiser.dx
-        if abs(my_cruiser.dy) > MAX_SPEED:
-            my_cruiser.dy = MAX_SPEED * abs(my_cruiser.dy)/my_cruiser.dy
+            if abs(self.dx) > MAX_SPEED:
+                self.dx = MAX_SPEED * abs(self.dx)/self.dx
+            if abs(self.dy) > MAX_SPEED:
+                self.dy = MAX_SPEED * abs(self.dy)/self.dy
 
-        self.x = self.x + self.dx
-        self.y = self.y + self.dy
-        # Slow to a stop
-        if self.dx != 0:
-            self.dx -= abs(self.dx)/self.dx
-        if self.dy != 0:
-            self.dy -= abs(self.dy)/self.dy
-        self.rect.x %= SCREEN_WIDTH
-        self.x %= SCREEN_WIDTH
-        self.rect.y %= SCREEN_HEIGHT
-        self.y %= SCREEN_HEIGHT
-        self.rect.move(self.rect.x, self.rect.y)
+            self.x += self.dx
+            self.y += self.dy
+            self.rect.x = self.rect.x + self.dx
+            self.rect.y = self.rect.y + self.dy
+            # Slow to a stop
+            if self.dx != 0:
+                self.dx -= abs(self.dx)/self.dx
+            if self.dy != 0:
+                self.dy -= abs(self.dy)/self.dy
+            self.rect.x %= SCREEN_WIDTH
+            self.x %= SCREEN_WIDTH
+            self.rect.y %= SCREEN_HEIGHT
+            self.y %= SCREEN_HEIGHT
         self.lasers.update()
 
     def draw(self):
-        self.screen.blit(self.image, (self.x, self.y))
-        for l in self.lasers:
-            l.draw()
+        if self.active:
+            self.screen.blit(self.image, (self.x, self.y))
+            for l in self.lasers:
+                l.draw()
 
-# Initialize all imported Pygame modules (a.k.a., get things started)
-pygame.init()
-clock = pygame.time.Clock()
+    def die(self):
+        if self.active:
+            self.active = False
+            self.death_sound.play()
+            self.kill()
+
+
+
 
 def quit():
     ''' Self explanatory '''
@@ -109,25 +133,33 @@ def input(events):
                 my_cruiser.create_laser()
 
 
-# Set the display's dimensions
-screenDimensions = (SCREEN_WIDTH, SCREEN_HEIGHT)
-window = pygame.display.set_mode(screenDimensions)
-pygame.display.set_caption('Battlecruiser') # Set the window bar title
-screen = pygame.display.get_surface() # This is where images are displayed
+if __name__ == "__main__":
+    # Initialize all imported Pygame modules (a.k.a., get things started)
+    pygame.init()
+    clock = pygame.time.Clock()
 
-# Clear the background
-background = pygame.Surface(screen.get_size()).convert()
-background.fill(BACKGROUND_COLOR)
-screen.blit(background, (0,0))
 
-my_cruiser = Battlecruiser(screen, 100,100)
-my_cruiser.draw()
+    # Set the display's dimensions
+    screenDimensions = (SCREEN_WIDTH, SCREEN_HEIGHT)
+    window = pygame.display.set_mode(screenDimensions)
+    pygame.display.set_caption('Battlecruiser') # Set the window bar title
+    screen = pygame.display.get_surface() # This is where images are displayed
 
-# The game loop
-while True:
-    time_passed = clock.tick(FPS)
-    screen.fill((0,0,0))
-    input(pygame.event.get())
-    my_cruiser.update()
+    # Clear the background
+    background = pygame.Surface(screen.get_size()).convert()
+    background.fill(BACKGROUND_COLOR)
+    screen.blit(background, (0,0))
+
+    my_cruiser = Battlecruiser(screen, 100,100)
     my_cruiser.draw()
-    pygame.display.flip()
+    score = 0
+    COUNTER_LOCATION = (10, 10)
+
+    # The game loop
+    while True:
+        time_passed = clock.tick(FPS)
+        screen.fill((0,0,0))
+        input(pygame.event.get())
+        my_cruiser.update()
+        my_cruiser.draw()
+        pygame.display.flip()
