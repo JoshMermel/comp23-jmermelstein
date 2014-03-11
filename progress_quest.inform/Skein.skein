@@ -1,0 +1,5564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0xe293c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>GNOME Inform 7</generator>
+  <activeNode nodeId="node-0x7ffa3c768590"/>
+  <item nodeId="node-0xe293c0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Progress Quest
+An Interactive Fiction by Josh Mermelstein
+Release 1 / Serial number 140311 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Town
+The town center is mysteriously abandoned.  The three shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You see a pamphlet on the ground. The pamphlet looks worn and smells musky.
+
+You can also see a Town Gate, a General Shop door, a Magic door, an Iron door and a Town key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xe29520"/>
+      <child nodeId="node-0xe29aa0"/>
+      <child nodeId="node-0x173d180"/>
+      <child nodeId="node-0x173d440"/>
+      <child nodeId="node-0x1765250"/>
+      <child nodeId="node-0x1765930"/>
+      <child nodeId="node-0x1765eb0"/>
+      <child nodeId="node-0x178c510"/>
+      <child nodeId="node-0x1048840"/>
+      <child nodeId="node-0x1048c60"/>
+      <child nodeId="node-0x7ffa3c0e8930"/>
+      <child nodeId="node-0x7ffa3c1b1170"/>
+      <child nodeId="node-0x7ffa3c1ddf30"/>
+      <child nodeId="node-0x7ffa3c286c40"/>
+      <child nodeId="node-0x7ffa3c3256f0"/>
+      <child nodeId="node-0x7ffa3c4c7be0"/>
+      <child nodeId="node-0x7ffa3c768430"/>
+    </children>
+  </item>
+  <item nodeId="node-0xe29520">
+    <command xml:space="preserve">look at alex</command>
+    <result xml:space="preserve">Alex is a blacksmith.  He can sell you weapons and armor
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0xe29aa0">
+    <command xml:space="preserve">alex</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xe29940"/>
+    </children>
+  </item>
+  <item nodeId="node-0xe29940">
+    <command xml:space="preserve">talk to alex</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xe297e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xe297e0">
+    <command xml:space="preserve">look at alex</command>
+    <result xml:space="preserve">Alex is a blacksmith.  He can sell you weapons and armor
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xe29680"/>
+    </children>
+  </item>
+  <item nodeId="node-0xe29680">
+    <command xml:space="preserve">look at bob</command>
+    <result xml:space="preserve">Bob is a mage.  He can help you with magical spells of all sorts
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xe29c00"/>
+    </children>
+  </item>
+  <item nodeId="node-0xe29c00">
+    <command xml:space="preserve">look at carla</command>
+    <result xml:space="preserve">Carla manages the general store.  It is closed right now
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xe29d60"/>
+    </children>
+  </item>
+  <item nodeId="node-0xe29d60">
+    <command xml:space="preserve">look at Darcy</command>
+    <result xml:space="preserve">Darcy is the town drunk.  She is rarely seen without a bottle of booze in hand
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0xe29ec0"/>
+    </children>
+  </item>
+  <item nodeId="node-0xe29ec0">
+    <command xml:space="preserve">look at ed</command>
+    <result xml:space="preserve">Ed is the town elder.  He may have a quest for you
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x173d180">
+    <command xml:space="preserve">go in the fire door</command>
+    <result xml:space="preserve">(first opening the fire door)
+
+The Smithey
+You can see a fire door and Alex here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x173d2e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x173d2e0">
+    <command xml:space="preserve">look at alex</command>
+    <result xml:space="preserve">Alex is a blacksmith.  He can sell you weapons and armor
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x173d440">
+    <command xml:space="preserve">go in the magic door</command>
+    <result xml:space="preserve">(first opening the Magic door)
+
+Magic Shop
+You can see a Magic door and Bob here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x173d5a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x173d5a0">
+    <command xml:space="preserve">go to town</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x173d700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x173d700">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x173d860"/>
+    </children>
+  </item>
+  <item nodeId="node-0x173d860">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Town
+You awaken in town.
+
+You can see a Magic door, a Smithy door, Carla, Darcy and Ed here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x173d9c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x173d9c0">
+    <command xml:space="preserve">go in the smithy door</command>
+    <result xml:space="preserve">(first opening the Smithy door)
+
+The Smithey
+You can see a Smithy door and Alex here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x173db20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x173db20">
+    <command xml:space="preserve">look at alex</command>
+    <result xml:space="preserve">Alex is a blacksmith.  He can sell you weapons and armor
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x173dc80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x173dc80">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Town
+You awaken in town.
+
+You can see a Smithy door, a Magic door, Carla, Darcy and Ed here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x173dde0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x173dde0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Magic Shop
+You can see a Magic door and Bob here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x173df40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x173df40">
+    <command xml:space="preserve">talk to bob</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17650f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17650f0">
+    <command xml:space="preserve">look at bob</command>
+    <result xml:space="preserve">Bob is a mage.  He can help you with magical spells of all sorts
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1765250">
+    <command xml:space="preserve">enter general shop door</command>
+    <result xml:space="preserve">(first opening the General shop door)
+
+General Store
+You can see a wooden ladder, a General shop door and Carla here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17653b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17653b0">
+    <command xml:space="preserve">go down ladder</command>
+    <result xml:space="preserve">I only understood you as far as wanting to go down.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1765510"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1765510">
+    <command xml:space="preserve">climb ladder</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1765670"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1765670">
+    <command xml:space="preserve">go up ladder</command>
+    <result xml:space="preserve">I only understood you as far as wanting to go up.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17657d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17657d0">
+    <command xml:space="preserve">use ladder</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1765930">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the General shop door)
+
+General Store
+You can see a wooden ladder, a General shop door and Carla here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1765a90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1765a90">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Tavern
+You can see a wooden ladder and Darcy here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1765bf0"/>
+      <child nodeId="node-0x1765d50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1765bf0">
+    <command xml:space="preserve">look at darcy</command>
+    <result xml:space="preserve">Darcy is the town drunk.  She is rarely seen without a bottle of booze in hand
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1765d50">
+    <command xml:space="preserve">look at Darcy</command>
+    <result xml:space="preserve">Darcy is the town drunk.  She is rarely seen without a bottle of booze in hand
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1765eb0">
+    <command xml:space="preserve">look at the town gate</command>
+    <result xml:space="preserve">You see nothing special about the Town Gate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x178c0f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x178c0f0">
+    <command xml:space="preserve">go in the town gate</command>
+    <result xml:space="preserve">Killng Fields 1
+A way in.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x178c250"/>
+    </children>
+  </item>
+  <item nodeId="node-0x178c250">
+    <command xml:space="preserve">go in the town gate</command>
+    <result xml:space="preserve">Town
+You are now in town.
+
+A way out.
+
+You can also see a General shop door, a Magic door and a Smithy door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x178c3b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x178c3b0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Town
+You are now in town.
+
+A way out.
+
+You can also see a General shop door, a Magic door and a Smithy door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x178c510">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Killing Fields 1
+You can see a Town Door and a Carion Crawler here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x178c670"/>
+      <child nodeId="node-0x178c930"/>
+      <child nodeId="node-0x17b3860"/>
+      <child nodeId="node-0x1844bf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x178c670">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Killing Fields 1
+You can see a Town Door and a Carion Crawler here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x178c7d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x178c7d0">
+    <command xml:space="preserve">examine meg</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x178c930">
+    <command xml:space="preserve">attack joe</command>
+    <result xml:space="preserve">You attack Joe, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x178ca90"/>
+      <child nodeId="node-0x178ceb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x178ca90">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Progress Quest
+An Interactive Fiction by Josh Mermelstein
+Release 1 / Serial number 140310 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Town
+You are now in town.
+
+You can see a Town Door, a General shop door, a Magic door and a Smithy door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x178cbf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x178cbf0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Killing Fields 1
+You can see a Town Door and Joe here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x178cd50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x178cd50">
+    <command xml:space="preserve">hit joe</command>
+    <result xml:space="preserve">You attack Joe, causing 3 points of damage!
+
+Joe expires, and is immediately carried away by the Arena slaves!
+
+
+
+    *** The End ***
+
+
+In that game you scored 0 out of a possible 0, in 2 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x178ceb0">
+    <command xml:space="preserve">attack joe</command>
+    <result xml:space="preserve">You attack Joe, causing 2 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17b3180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17b3180">
+    <command xml:space="preserve">attack joe</command>
+    <result xml:space="preserve">You attack Joe, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17b32e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17b32e0">
+    <command xml:space="preserve">attack joe</command>
+    <result xml:space="preserve">You attack Joe, causing 9 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17b3440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17b3440">
+    <command xml:space="preserve">attack joe</command>
+    <result xml:space="preserve">You attack Joe, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17b35a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17b35a0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe, causing 3 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17b3700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17b3700">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe, causing 6 points of damage!
+
+Joe expires, and is immediately carried away by the Arena slaves!
+
+
+
+    *** The End ***
+
+
+In that game you scored 0 out of a possible 0, in 8 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x17b3860">
+    <command xml:space="preserve">hit joe</command>
+    <result xml:space="preserve">You attack Joe, causing 4 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17b39c0"/>
+      <child nodeId="node-0x17f3f30"/>
+      <child nodeId="node-0x1844510"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17b39c0">
+    <command xml:space="preserve">hit joe</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17b3b20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17b3b20">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17b3c80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17b3c80">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17b3de0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17b3de0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17b3f40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17b3f40">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17ce0f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17ce0f0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17ce250"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17ce250">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17ce3b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17ce3b0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17ce510"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17ce510">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17ce670"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17ce670">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17ce7d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17ce7d0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17ce930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17ce930">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17cea90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17cea90">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17cebf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17cebf0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17ced50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17ced50">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17ceeb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17ceeb0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f3170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f3170">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f32d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f32d0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f3430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f3430">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f3590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f3590">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f36f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f36f0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f3850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f3850">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f39b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f39b0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f3b10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f3b10">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f3c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f3c70">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x17f3dd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x17f3dd0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x17f3f30">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe, causing 4 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1819160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1819160">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe, causing 4 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18192c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18192c0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe, causing 3 points of damage!
+
+Joe expires, and is immediately carried away by the Arena slaves!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1819420"/>
+      <child nodeId="node-0x1819f20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1819420">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe, causing 3 points of damage!
+
+Joe expires, and is immediately carried away by the Arena slaves!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1819580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1819580">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Killing Fields 1
+You can see a Town Door and Jake here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18196e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18196e0">
+    <command xml:space="preserve">hit james</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1819840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1819840">
+    <command xml:space="preserve">hit jake</command>
+    <result xml:space="preserve">You attack Jake, causing 4 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18199a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18199a0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Jake, causing 5 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1819b00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1819b00">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Jake, causing 3 points of damage!
+
+Jake expires, and is immediately carried away by the Arena slaves!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1819c60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1819c60">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1819dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1819dc0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Killing Fields 1
+You can see a Town Door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1819f20">
+    <command xml:space="preserve">hit jake</command>
+    <result xml:space="preserve">You attack Jake, causing 4 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18440f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18440f0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Jake, causing 3 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1844250"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1844250">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Jake, causing 4 points of damage!
+
+Jake expires, and is immediately carried away by the Arena slaves!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18443b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18443b0">
+    <command xml:space="preserve">score</command>
+    <result xml:space="preserve">You have so far scored 10 out of a possible 0, in 9 turns.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1844510">
+    <command xml:space="preserve">.</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1844670"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1844670">
+    <command xml:space="preserve">hit joe</command>
+    <result xml:space="preserve">You attack Joe, causing 2 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x18447d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x18447d0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe, causing 2 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1844930"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1844930">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack Joe, causing 5 points of damage!
+
+Joe  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1844a90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1844a90">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1844bf0">
+    <command xml:space="preserve">hit the carion crawler</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 5 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1844d50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1844d50">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 2 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1844eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1844eb0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 5 points of damage!
+
+The Carion Crawler  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1048160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1048160">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 5 points of damage!
+
+The Carion Crawler  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x10482c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x10482c0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Killing Fields 2
+You can see a Fire worm and an Ice worm here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1048420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1048420">
+    <command xml:space="preserve">hit the fire worm</command>
+    <result xml:space="preserve">You attack the Fire worm, causing 4 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1048580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1048580">
+    <command xml:space="preserve">.</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1048840">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the Iron door)
+
+The Smithy
+You can see an Iron door and a magic key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x10489a0"/>
+      <child nodeId="node-0x1048f20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x10489a0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">The Smithey
+You can see a Smithy door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1048f20">
+    <command xml:space="preserve">take the key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c0e80f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c0e80f0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Town
+You are now in town.
+
+You can see an Iron door, a Town Door, a General shop door and a Magic door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c0e8250"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c0e8250">
+    <command xml:space="preserve">unlock the magic door with the magic key</command>
+    <result xml:space="preserve">You unlock the Magic door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c0e83b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c0e83b0">
+    <command xml:space="preserve">open the magic door</command>
+    <result xml:space="preserve">You open the Magic door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c0e8510"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c0e8510">
+    <command xml:space="preserve">go in the magic door</command>
+    <result xml:space="preserve">
+Magic Shop
+You can see a Magic door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1048c60">
+    <command xml:space="preserve">go in the iron door</command>
+    <result xml:space="preserve">(first opening the iron door)
+
+The Smithy
+You can see an iron door and a rusty key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1048b00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1048b00">
+    <command xml:space="preserve">take the key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1048dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1048dc0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a rusty key
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c0e8930">
+    <command xml:space="preserve">open iron door</command>
+    <result xml:space="preserve">You open the Iron door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c0e87d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c0e87d0">
+    <command xml:space="preserve">go in iron door</command>
+    <result xml:space="preserve">
+The Smithy
+You can see an Iron door and a magic key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c0e8670"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c0e8670">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c0e8a90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c0e8a90">
+    <command xml:space="preserve">go in iron door</command>
+    <result xml:space="preserve">
+Town
+You are now in town.
+
+You can see an Iron door, a Town Door, a General shop door and a Magic door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c0e8bf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c0e8bf0">
+    <command xml:space="preserve">unlock magic door with magic key</command>
+    <result xml:space="preserve">You unlock the Magic door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c0e8d50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c0e8d50">
+    <command xml:space="preserve">open magic door</command>
+    <result xml:space="preserve">You open the Magic door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c0e8eb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c0e8eb0">
+    <command xml:space="preserve">go in magic door</command>
+    <result xml:space="preserve">
+Magic Shop
+You can see a Magic door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c143110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c143110">
+    <command xml:space="preserve">open general shop door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c143270"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c143270">
+    <command xml:space="preserve">open General shop door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1433d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1433d0">
+    <command xml:space="preserve">open town door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c143530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c143530">
+    <command xml:space="preserve">go in town door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c143690"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c143690">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1437f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1437f0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c143950"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c143950">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Town
+You are now in town.
+
+You can see a Magic door, an Iron door, a Town Door and a General shop door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c143ab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c143ab0">
+    <command xml:space="preserve">clear</command>
+    <result xml:space="preserve">(the magic key)
+Nothing obvious happens.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c143c10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c143c10">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a magic key
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c143d70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c143d70">
+    <command xml:space="preserve">open town door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c143ed0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c143ed0">
+    <command xml:space="preserve">open general shop door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c1b1170">
+    <command xml:space="preserve">go in iron door</command>
+    <result xml:space="preserve">(first opening the Iron door)
+
+The Smithy
+This smithy smells faintly of burnt fuel and metal.  Sadly there are no useful tools left for you to &quot;borrow&quot;
+
+You can see an Iron door and a magic key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1b12d0"/>
+      <child nodeId="node-0x7ffa3c325850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1b12d0">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1b1430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1b1430">
+    <command xml:space="preserve">go in iron door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see an Iron door, a Town Gate, a General Shop door and a Magic door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1b1590"/>
+      <child nodeId="node-0x7ffa3c3c1690"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1b1590">
+    <command xml:space="preserve">go in magic door</command>
+    <result xml:space="preserve">(first opening the Magic door)
+It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1b16f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1b16f0">
+    <command xml:space="preserve">unlock magic door with magic key</command>
+    <result xml:space="preserve">You unlock the Magic door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1b1850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1b1850">
+    <command xml:space="preserve">go in magic door</command>
+    <result xml:space="preserve">(first opening the Magic door)
+
+Magic Shop
+You can see a Magic door and a store key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1b19b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1b19b0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the store key)
+Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1b1b10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1b1b10">
+    <command xml:space="preserve">go out magic door</command>
+    <result xml:space="preserve">I only understood you as far as wanting to go outside.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1b1c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1b1c70">
+    <command xml:space="preserve">go in magic door</command>
+    <result xml:space="preserve">
+Town
+You are now in town.
+
+You can see a Magic door, an Iron door, a Town Door and a General shop door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1b1dd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1b1dd0">
+    <command xml:space="preserve">unlock store</command>
+    <result xml:space="preserve">What do you want to unlock the store key with?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1b1f30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1b1f30">
+    <command xml:space="preserve">c</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1dd170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1dd170">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Town
+You are now in town.
+
+You can see a Magic door, an Iron door, a Town Door and a General shop door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1dd2d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1dd2d0">
+    <command xml:space="preserve">unlock shop door with store key</command>
+    <result xml:space="preserve">You unlock the General shop door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1dd430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1dd430">
+    <command xml:space="preserve">go in shop door</command>
+    <result xml:space="preserve">(first opening the General shop door)
+
+General Store
+You can see a General shop door and a Town key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1dd590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1dd590">
+    <command xml:space="preserve">take town key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1dd6f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1dd6f0">
+    <command xml:space="preserve">go in shop door</command>
+    <result xml:space="preserve">
+Town
+You are now in town.
+
+You can see a General shop door, a Magic door, an Iron door and a Town Door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1dd850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1dd850">
+    <command xml:space="preserve">unlock town door with town key</command>
+    <result xml:space="preserve">You unlock the Town Door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1dd9b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1dd9b0">
+    <command xml:space="preserve">go in town door</command>
+    <result xml:space="preserve">(first opening the Town Door)
+
+Killing Fields 1
+You can see a Town Door and a Carion Crawler here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1ddb10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1ddb10">
+    <command xml:space="preserve">attack carion crawler</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 4 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1ddc70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1ddc70">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 4 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c1dddd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c1dddd0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 3 points of damage!
+
+The Carion Crawler  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c3c1690">
+    <command xml:space="preserve">unlock magic door with key</command>
+    <result xml:space="preserve">You unlock the Magic door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3c1530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3c1530">
+    <command xml:space="preserve">go in magic door</command>
+    <result xml:space="preserve">(first opening the Magic door)
+
+Magic Shop
+Adventurers use to stop here to buy potions and spells.  Unfortunately for them this was the kind of magic shop that sold cheap gags and the like.
+
+You can see a Magic door, a Store key and a can of nuts here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3c17f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3c17f0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the Store key)
+Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3c1950"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3c1950">
+    <command xml:space="preserve">go in magic door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see a Magic door, an Iron door, a Town Gate and a General Shop door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3c1ab0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3c1ab0">
+    <command xml:space="preserve">unlock shop door with store key</command>
+    <result xml:space="preserve">You unlock the General Shop door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3c1c10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3c1c10">
+    <command xml:space="preserve">go in shop door</command>
+    <result xml:space="preserve">(first opening the General Shop door)
+
+General Store
+A place to buy and sell things.  Too bad there is no one here to trade with.
+
+You can see a General Shop door, a Town key and a sword here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3c1d70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3c1d70">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the Town key)
+Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3c1ed0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3c1ed0">
+    <command xml:space="preserve">take sword</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4ac100"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4ac100">
+    <command xml:space="preserve">go in shop door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see a General Shop door, a Magic door, an Iron door and a Town Gate here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4ac260"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4ac260">
+    <command xml:space="preserve">open gate with town key</command>
+    <result xml:space="preserve">You unlock the Town Gate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4ac3c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4ac3c0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Town Gate)
+
+Killing Fields 1
+The first of seven killing fields
+
+You can see a Town Gate and a Disembodied Hand here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4ac520"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4ac520">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 2
+The second of seven killing fields
+
+You can see a Fire worm and an Ice worm here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4ac680"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4ac680">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 3
+The third of seven killing fields
+
+You can see a shadow knight, a shadow horse and a shadow sword here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4ac7e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4ac7e0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 4
+The fourth of seven killing fields
+
+You can see a cyan imp, a yellow imp, a magenta imp and a black imp here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4ac940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4ac940">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 5
+The fifth of seven killing fields
+
+You can see a choreographer, a ballerina, a break dancer, a gymnast and a supermodel here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4acaa0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4acaa0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 6
+The sixth of seven killing fields
+
+You can see a kitchen ghost, a cursed immersion blender, a cursed cheese grater, a cursed popcorn popper, a cursed salad spinner and a cursed pizza cutter here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4acc00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4acc00">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 7
+The last of seven killing fields
+
+You can see an evil king here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4acd60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4acd60">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4acec0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4acec0">
+    <command xml:space="preserve">hit king</command>
+    <result xml:space="preserve">You attack the evil king, causing 15 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4c70e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4c70e0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 16 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4c7240"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4c7240">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 15 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4c73a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4c73a0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 17 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4c7500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4c7500">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 18 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4c7660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4c7660">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 17 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4c77c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4c77c0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 15 points of damage!
+
+The evil king  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c325850">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c325430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c325430">
+    <command xml:space="preserve">examine key</command>
+    <result xml:space="preserve">I bet this key unlocks a magic door!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3259b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3259b0">
+    <command xml:space="preserve">go door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see an Iron door, a Town Gate, a General Shop door and a Magic door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c325b10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c325b10">
+    <command xml:space="preserve">unlock magic door with magic key</command>
+    <result xml:space="preserve">You unlock the Magic door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c325c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c325c70">
+    <command xml:space="preserve">go magic door</command>
+    <result xml:space="preserve">(first opening the Magic door)
+
+Magic Shop
+Adventurers use to stop here to buy potions and spells.  Unfortunately for them this was the kind of magic shop that sold cheap gags and the like.
+
+You can see a Magic door, a Store key and a can of nuts here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c325dd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c325dd0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the Store key)
+Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c325f30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c325f30">
+    <command xml:space="preserve">examine it</command>
+    <result xml:space="preserve">I bet this unlocks a store!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3c1110"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3c1110">
+    <command xml:space="preserve">tkae can</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3c1270"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3c1270">
+    <command xml:space="preserve">take nuts</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3c13d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3c13d0">
+    <command xml:space="preserve">examine it</command>
+    <result xml:space="preserve">Full of snakes.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c1ddf30">
+    <command xml:space="preserve">take the sword</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24a130"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24a130">
+    <command xml:space="preserve">go in iron door</command>
+    <result xml:space="preserve">(first opening the Iron door)
+
+The Smithy
+You can see an Iron door and a magic key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24a290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24a290">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24a3f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24a3f0">
+    <command xml:space="preserve">go in iron door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three two shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see an Iron door, a Town Door, a General shop door and a Magic door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24a550"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24a550">
+    <command xml:space="preserve">unlock magic door with key</command>
+    <result xml:space="preserve">You unlock the Magic door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24a6b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24a6b0">
+    <command xml:space="preserve">go in magic door</command>
+    <result xml:space="preserve">(first opening the Magic door)
+
+Magic Shop
+You can see a Magic door and a store key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24a810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24a810">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the store key)
+Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24a970"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24a970">
+    <command xml:space="preserve">go in magic door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three two shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see a Magic door, an Iron door, a Town Door and a General shop door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24aad0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24aad0">
+    <command xml:space="preserve">unlock shop door with store key</command>
+    <result xml:space="preserve">You unlock the General shop door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24ac30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24ac30">
+    <command xml:space="preserve">go in shop door</command>
+    <result xml:space="preserve">(first opening the General shop door)
+
+General Store
+You can see a General shop door and a Town key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24ad90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24ad90">
+    <command xml:space="preserve">take town key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c24aef0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c24aef0">
+    <command xml:space="preserve">go in shop door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three two shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see a General shop door, a Magic door, an Iron door and a Town Door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26d140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26d140">
+    <command xml:space="preserve">unlock town door with town key</command>
+    <result xml:space="preserve">You unlock the Town Door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26d2a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26d2a0">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">(first opening the Town Door)
+
+Killing Fields 1
+You can see a Town Door and a Carion Crawler here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26d400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26d400">
+    <command xml:space="preserve">attack crawler</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 3 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26d560"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26d560">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 5 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26d6c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26d6c0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 5 points of damage!
+
+The Carion Crawler  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26d820"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26d820">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Killing Fields 2
+You can see a Fire worm and an Ice worm here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26d980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26d980">
+    <command xml:space="preserve">attack fire worm</command>
+    <result xml:space="preserve">You attack the Fire worm, causing 5 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26dae0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26dae0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Fire worm, causing 4 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26dc40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26dc40">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Fire worm, causing 3 points of damage!
+
+The Fire worm  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26dda0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26dda0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c26df00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c26df00">
+    <command xml:space="preserve">attack ice worm</command>
+    <result xml:space="preserve">You attack the Ice worm, causing 4 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c286140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c286140">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Ice worm, causing 5 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2862a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2862a0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Ice worm, causing 3 points of damage!
+
+The Ice worm  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c286400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c286400">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Killing Fields 3
+You can see a shadow knight, a shadow horse and a shadow sword here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c286560"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c286560">
+    <command xml:space="preserve">hit knight</command>
+    <result xml:space="preserve">You attack the shadow knight, causing 3 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2866c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2866c0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the shadow knight, causing 5 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c286820"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c286820">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the shadow knight, causing 6 points of damage!
+
+The shadow knight  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c286c40">
+    <command xml:space="preserve">go iron door</command>
+    <result xml:space="preserve">(first opening the Iron door)
+
+The Smithy
+You can see an Iron door and a magic key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c286ae0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c286ae0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c286980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c286980">
+    <command xml:space="preserve">go iron door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three two shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see an Iron door, a Town Gate, a General Shop door and a Magic door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c286da0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c286da0">
+    <command xml:space="preserve">unlock magic door with key</command>
+    <result xml:space="preserve">You unlock the Magic door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c286f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c286f00">
+    <command xml:space="preserve">go magic</command>
+    <result xml:space="preserve">(the magic key)
+That&apos;s not something you can enter.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e80e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e80e0">
+    <command xml:space="preserve">go magic door</command>
+    <result xml:space="preserve">(first opening the Magic door)
+
+Magic Shop
+You can see a Magic door and a store key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e8240"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e8240">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the store key)
+Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e83a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e83a0">
+    <command xml:space="preserve">go magic door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three two shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see a Magic door, an Iron door, a Town Gate and a General Shop door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e8500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e8500">
+    <command xml:space="preserve">use shop key on general store door</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e8660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e8660">
+    <command xml:space="preserve">unlock general sotre</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e87c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e87c0">
+    <command xml:space="preserve">unlock general store door</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e8920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e8920">
+    <command xml:space="preserve">unlock general store door with shop key</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e8a80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e8a80">
+    <command xml:space="preserve">unlock shop door with store key</command>
+    <result xml:space="preserve">You unlock the General Shop door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e8be0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e8be0">
+    <command xml:space="preserve">go in shop door</command>
+    <result xml:space="preserve">(first opening the General Shop door)
+
+General Store
+You can see a General Shop door, a Town key and a sword here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e8d40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e8d40">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the Town key)
+Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c2e8ea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c2e8ea0">
+    <command xml:space="preserve">take sword</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30c0e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30c0e0">
+    <command xml:space="preserve">go shop door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three two shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see a General Shop door, a Magic door, an Iron door and a Town Gate here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30c240"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30c240">
+    <command xml:space="preserve">unlock gate with town key</command>
+    <result xml:space="preserve">You unlock the Town Gate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30c3a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30c3a0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Town Gate)
+
+Killing Fields 1
+You can see a Town Gate and a Carion Crawler here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30c500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30c500">
+    <command xml:space="preserve">hit crawler</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30c660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30c660">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Carion Crawler, causing 7 points of damage!
+
+The Carion Crawler  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30c7c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30c7c0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30c920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30c920">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Killing Fields 2
+You can see a Fire worm and an Ice worm here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30ca80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30ca80">
+    <command xml:space="preserve">hit fire</command>
+    <result xml:space="preserve">You attack the Fire worm, causing 8 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30cbe0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30cbe0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Fire worm, causing 8 points of damage!
+
+The Fire worm  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30cd40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30cd40">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c30cea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c30cea0">
+    <command xml:space="preserve">hit ice</command>
+    <result xml:space="preserve">You attack the Ice worm, causing 5 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c325170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c325170">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Ice worm, causing 7 points of damage!
+
+The Ice worm  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c3252d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c3252d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c3256f0">
+    <command xml:space="preserve">go in smithy</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c325590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c325590">
+    <command xml:space="preserve">go iron door</command>
+    <result xml:space="preserve">(first opening the Iron door)
+
+The Smithy
+This smithy smells faintly of burnt fuel and metal.  Sadly there are no useful tools left for you to &quot;borrow&quot;
+
+You can see an Iron door and a magic key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c4c7be0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4c7a80"/>
+      <child nodeId="node-0x7ffa3c5919a0"/>
+      <child nodeId="node-0x7ffa3c716430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4c7a80">
+    <command xml:space="preserve">unlock gate with key</command>
+    <result xml:space="preserve">You unlock the Town Gate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4c7920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4c7920">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">(first opening the Town Gate)
+
+Killing Fields 1
+The first of seven killing fields
+
+You can see a Town Gate and a Disembodied Hand here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4c7d40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4c7d40">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 2
+The second of seven killing fields
+
+You can see a Fire worm and an Ice worm here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c4c7ea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c4c7ea0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 3
+The third of seven killing fields
+
+You can see a shadow knight, a shadow horse and a shadow sword here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c591160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c591160">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 4
+The fourth of seven killing fields
+
+You can see a cyan imp, a yellow imp, a magenta imp and a black imp here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5912c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5912c0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 5
+The fifth of seven killing fields
+
+You can see a choreographer, a ballerina, a break dancer, a gymnast and a supermodel here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c591420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c591420">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 6
+The sixth of seven killing fields
+
+You can see a kitchen ghost, a cursed immersion blender, a cursed cheese grater, a cursed popcorn popper, a cursed salad spinner and a cursed pizza cutter here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c591580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c591580">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 7
+The last of seven killing fields
+
+You can see an evil king here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5916e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5916e0">
+    <command xml:space="preserve">hit evil king</command>
+    <result xml:space="preserve">You attack the evil king, causing 0 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c5919a0">
+    <command xml:space="preserve">go in iron door</command>
+    <result xml:space="preserve">(first opening the Iron door)
+
+The Smithy
+This smithy smells faintly of burnt fuel and metal.  Sadly there are no useful tools left for you to &quot;borrow&quot;
+
+You can see an Iron door and a magic key here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c591840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c591840">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the magic key)
+Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c591b00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c591b00">
+    <command xml:space="preserve">go in iron door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see an Iron door, a Town Gate, a General Shop door and a Magic door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c591c60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c591c60">
+    <command xml:space="preserve">unlock magic door with magic key</command>
+    <result xml:space="preserve">You unlock the Magic door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c591dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c591dc0">
+    <command xml:space="preserve">go in magic door</command>
+    <result xml:space="preserve">(first opening the Magic door)
+
+Magic Shop
+Adventurers use to stop here to buy potions and spells.  Unfortunately for them this was the kind of magic shop that sold cheap gags and the like.
+
+You can see a Magic door, a Store key and a can of nuts here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c591f20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c591f20">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the Store key)
+Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5ef180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5ef180">
+    <command xml:space="preserve">go in magic door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see a Magic door, an Iron door, a Town Gate and a General Shop door here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5ef2e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5ef2e0">
+    <command xml:space="preserve">unlock shop door with store key</command>
+    <result xml:space="preserve">You unlock the General Shop door.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5ef440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5ef440">
+    <command xml:space="preserve">go in shop door</command>
+    <result xml:space="preserve">(first opening the General Shop door)
+
+General Store
+A place to buy and sell things.  Too bad there is no one here to trade with.
+
+You can see a General Shop door and a sword here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5ef5a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5ef5a0">
+    <command xml:space="preserve">take sword</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5ef700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5ef700">
+    <command xml:space="preserve">go in shop door</command>
+    <result xml:space="preserve">
+Town
+The town center is mysteriously abandoned.  The three shops, the Magic Shop to the west, The General Store to the south and The Smithy to the east are all but empty.  To the north, through the Town Gate are the killing fields, full of monsters to kill for experience
+
+You can see a General Shop door, a Magic door, an Iron door and a Town Gate here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5ef860"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5ef860">
+    <command xml:space="preserve">unlock gate with town key</command>
+    <result xml:space="preserve">You unlock the Town Gate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5ef9c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5ef9c0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Town Gate)
+
+Killing Fields 1
+The first of seven killing fields
+
+You can see a Town Gate and a Disembodied Hand here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5efb20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5efb20">
+    <command xml:space="preserve">hit hand</command>
+    <result xml:space="preserve">You attack the Disembodied Hand, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5efc80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5efc80">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Disembodied Hand, causing 6 points of damage!
+
+The Disembodied Hand  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5efde0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5efde0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Killing Fields 2
+The second of seven killing fields
+
+You can see a Fire worm and an Ice worm here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c5eff40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c5eff40">
+    <command xml:space="preserve">hit worm</command>
+    <result xml:space="preserve">Who do you mean, the Fire worm or the Ice worm?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6150e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6150e0">
+    <command xml:space="preserve">fire</command>
+    <result xml:space="preserve">You attack the Fire worm, causing 8 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c615240"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c615240">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Fire worm, causing 5 points of damage!
+
+The Fire worm  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6153a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6153a0">
+    <command xml:space="preserve">hit worm</command>
+    <result xml:space="preserve">You attack the Ice worm, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c615500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c615500">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the Ice worm, causing 6 points of damage!
+
+The Ice worm  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c615660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c615660">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6157c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6157c0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Killing Fields 3
+The third of seven killing fields
+
+You can see a shadow knight, a shadow horse and a shadow sword here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c615920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c615920">
+    <command xml:space="preserve">hit knight</command>
+    <result xml:space="preserve">You attack the shadow knight, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c615a80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c615a80">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the shadow knight, causing 7 points of damage!
+
+The shadow knight  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c615be0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c615be0">
+    <command xml:space="preserve">hit horse</command>
+    <result xml:space="preserve">You attack the shadow horse, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c615d40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c615d40">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the shadow horse, causing 5 points of damage!
+
+The shadow horse  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c615ea0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c615ea0">
+    <command xml:space="preserve">hit sord</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64e150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64e150">
+    <command xml:space="preserve">hit sword</command>
+    <result xml:space="preserve">(the sword)
+Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64e2b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64e2b0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Killing Fields 3
+The third of seven killing fields
+
+You can see a shadow sword here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64e410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64e410">
+    <command xml:space="preserve">hit sword</command>
+    <result xml:space="preserve">(the sword)
+Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64e570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64e570">
+    <command xml:space="preserve">fight sword</command>
+    <result xml:space="preserve">(the sword)
+Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64e6d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64e6d0">
+    <command xml:space="preserve">fight shadow sword</command>
+    <result xml:space="preserve">You attack the shadow sword, causing 8 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64e830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64e830">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the shadow sword, causing 7 points of damage!
+
+The shadow sword  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64e990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64e990">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Killing Fields 3
+The third of seven killing fields
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64eaf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64eaf0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Killing Fields 4
+The fourth of seven killing fields
+
+You can see a cyan imp, a yellow imp, a magenta imp and a black imp here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64ec50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64ec50">
+    <command xml:space="preserve">hit imp</command>
+    <result xml:space="preserve">Who do you mean, the cyan imp, the yellow imp, the magenta imp or the black imp?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64edb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64edb0">
+    <command xml:space="preserve">cyan</command>
+    <result xml:space="preserve">You attack the cyan imp, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c64ef10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c64ef10">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the cyan imp, causing 7 points of damage!
+
+The cyan imp  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c667170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c667170">
+    <command xml:space="preserve">hit img</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6672d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6672d0">
+    <command xml:space="preserve">hit imp</command>
+    <result xml:space="preserve">Who do you mean, the yellow imp, the magenta imp or the black imp?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c667430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c667430">
+    <command xml:space="preserve">yellow</command>
+    <result xml:space="preserve">You attack the yellow imp, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c667590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c667590">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the yellow imp, causing 8 points of damage!
+
+The yellow imp  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6676f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6676f0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c667850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c667850">
+    <command xml:space="preserve">hit imp</command>
+    <result xml:space="preserve">Who do you mean, the magenta imp or the black imp?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6679b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6679b0">
+    <command xml:space="preserve">magenta</command>
+    <result xml:space="preserve">You attack the magenta imp, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c667b10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c667b10">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the magenta imp, causing 6 points of damage!
+
+The magenta imp  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c667c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c667c70">
+    <command xml:space="preserve">hit imp</command>
+    <result xml:space="preserve">You attack the black imp, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c667dd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c667dd0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the black imp, causing 6 points of damage!
+
+The black imp  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c667f30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c667f30">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Killing Fields 5
+The fifth of seven killing fields
+
+You can see a choreographer, a ballerina, a break dancer, a gymnast and a supermodel here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68c180"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68c180">
+    <command xml:space="preserve">hit chor</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68c2e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68c2e0">
+    <command xml:space="preserve">hit choreographer</command>
+    <result xml:space="preserve">You attack the choreographer, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68c440"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68c440">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the choreographer, causing 8 points of damage!
+
+The choreographer  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68c5a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68c5a0">
+    <command xml:space="preserve">hit ballerina</command>
+    <result xml:space="preserve">You attack the ballerina, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68c700"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68c700">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the ballerina, causing 5 points of damage!
+
+The ballerina  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68c860"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68c860">
+    <command xml:space="preserve">hit dancer</command>
+    <result xml:space="preserve">You attack the break dancer, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68c9c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68c9c0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the break dancer, causing 7 points of damage!
+
+The break dancer  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68cb20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68cb20">
+    <command xml:space="preserve">hit gymnast</command>
+    <result xml:space="preserve">You attack the gymnast, causing 8 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68cc80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68cc80">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the gymnast, causing 7 points of damage!
+
+The gymnast  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68cde0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68cde0">
+    <command xml:space="preserve">hit supermodel</command>
+    <result xml:space="preserve">You attack the supermodel, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c68cf40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c68cf40">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the supermodel, causing 8 points of damage!
+
+The supermodel  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b0160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b0160">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Killing Fields 5
+The fifth of seven killing fields
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b02c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b02c0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Killing Fields 6
+The sixth of seven killing fields
+
+You can see a kitchen ghost, a cursed immersion blender, a cursed cheese grater, a cursed popcorn popper, a cursed salad spinner and a cursed pizza cutter here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b0420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b0420">
+    <command xml:space="preserve">hit ghost</command>
+    <result xml:space="preserve">You attack the kitchen ghost, causing 5 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b0580"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b0580">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the kitchen ghost, causing 5 points of damage!
+
+The kitchen ghost  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b06e0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b06e0">
+    <command xml:space="preserve">hit blender</command>
+    <result xml:space="preserve">You attack the cursed immersion blender, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b0840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b0840">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the cursed immersion blender, causing 5 points of damage!
+
+The cursed immersion blender  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b09a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b09a0">
+    <command xml:space="preserve">hit grater</command>
+    <result xml:space="preserve">You attack the cursed cheese grater, causing 8 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b0b00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b0b00">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the cursed cheese grater, causing 5 points of damage!
+
+The cursed cheese grater  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b0c60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b0c60">
+    <command xml:space="preserve">hit popper</command>
+    <result xml:space="preserve">You attack the cursed popcorn popper, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b0dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b0dc0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the cursed popcorn popper, causing 7 points of damage!
+
+The cursed popcorn popper  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6b0f20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6b0f20">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Killing Fields 6
+The sixth of seven killing fields
+
+You can see a cursed salad spinner and a cursed pizza cutter here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d7140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d7140">
+    <command xml:space="preserve">hit salad</command>
+    <result xml:space="preserve">You attack the cursed salad spinner, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d72a0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d72a0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the cursed salad spinner, causing 8 points of damage!
+
+The cursed salad spinner  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d7400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d7400">
+    <command xml:space="preserve">hit pizza</command>
+    <result xml:space="preserve">You attack the cursed pizza cutter, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d7560"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d7560">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the cursed pizza cutter, causing 7 points of damage!
+
+The cursed pizza cutter  is slain!
+
+[Your score has just gone up by five points.]
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d76c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d76c0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Killing Fields 6
+The sixth of seven killing fields
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d7820"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d7820">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Killing Fields 7
+The last of seven killing fields
+
+You can see an evil king here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d7980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d7980">
+    <command xml:space="preserve">hit king</command>
+    <result xml:space="preserve">You attack the evil king, causing 5 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d7ae0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d7ae0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d7c40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d7c40">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d7da0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d7da0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6d7f00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6d7f00">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6ef150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6ef150">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 6 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6ef2b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6ef2b0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 8 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6ef410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6ef410">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6ef570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6ef570">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6ef6d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6ef6d0">
+    <command xml:space="preserve">hit king</command>
+    <result xml:space="preserve">You attack the evil king, causing 8 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6ef830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6ef830">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 8 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6ef990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6ef990">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6efaf0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6efaf0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 8 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6efc50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6efc50">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6efdb0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6efdb0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 8 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c6eff10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c6eff10">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 7 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c716170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c716170">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">You attack the evil king, causing 6 points of damage!
+
+The evil king  is slain!
+
+
+
+    *** You have won ***
+
+
+In that game you scored 110 out of a possible 105, in 85 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c7162d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c7162d0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c716430">
+    <command xml:space="preserve">unlock gate</command>
+    <result xml:space="preserve">(with the Town key)
+You unlock the Town Gate.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c716590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c716590">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Town Gate)
+
+Killing Fields 1
+The first of seven killing fields
+
+You can see a Town Gate and a Disembodied Hand here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c7166f0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c7166f0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 2
+The second of seven killing fields
+
+You can see a Fire worm and an Ice worm here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c716850"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c716850">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 3
+The third of seven killing fields
+
+You can see a shadow knight, a shadow horse and a shadow sword here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c7169b0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c7169b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c716b10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c716b10">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 4
+The fourth of seven killing fields
+
+You can see a cyan imp, a yellow imp, a magenta imp and a black imp here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c716c70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c716c70">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 5
+The fifth of seven killing fields
+
+You can see a choreographer, a ballerina, a break dancer, a gymnast and a supermodel here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c716dd0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c716dd0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 6
+The sixth of seven killing fields
+
+You can see a kitchen ghost, a cursed immersion blender, a cursed cheese grater, a cursed popcorn popper, a cursed salad spinner and a cursed pizza cutter here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c716f30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c716f30">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Killing Fields 7
+The last of seven killing fields
+
+You can see an evil king here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c768170"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c768170">
+    <command xml:space="preserve">hit king</command>
+    <result xml:space="preserve">The king cannot be hurt until his minions have been slain.
+You attack the evil king, causing 0 points of damage!
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7ffa3c768430">
+    <command xml:space="preserve">take the pamphlet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c7682d0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c7682d0">
+    <command xml:space="preserve">read the pamphlet</command>
+    <result xml:space="preserve">Welcome to progress quest.  To win the game you must kill the evil king.  He can be found in the final killing fields, far North of town.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7ffa3c768590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7ffa3c768590">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Town Gate)
+It seems to be locked.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
